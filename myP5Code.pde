@@ -10,7 +10,17 @@ void draw(){
   fill(255,255,255);
   strokeWeight(1);
 
-  //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
+  //wheels Your Code For This Project Goes Here
+  rect(0,300,400,100);
+  line (225,155,100,155)
+  line (225, 155, 100, 155)
+
+  ellipse (100,320,75,75); 
+  ellipse (100, 320, 30, 30);
+  ellipse (190, 320, 75, 75);
+  ellipse (190, 320, 30, 30);
+  
+
   
 
   
