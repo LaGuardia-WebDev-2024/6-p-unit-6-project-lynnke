@@ -20,10 +20,10 @@ void draw(){
 // Wheels
 fill (255,0,0)
   ellipse (100,320,75,75); 
-  ellipse (100, 320, 30, 30);
+ 
 fill (255,0,0)
   ellipse (190, 320, 75, 75);
-  ellipse (190, 320, 30, 30);
+
 
 fill (255,0,0)
 ellipse (300,310,100,100); 
@@ -33,11 +33,36 @@ fill (255, 234, 0)
 // The rod on the wheels
 fill (0,0,225);
 strokeWeight (15);
+stroke (0,0,255)
 line (310, 321,105, 321);
 
+// back of the train 
+strokeWeight (1)
+  fill (0, 150, 255);
+line (340, 270, 340, 55); 
+line (220, 270, 220, 55);
+line (340,55 ,220, 55);
+line (340,266 ,220, 266);
+  fill (0, 150, 255)
 
 
+// middle of the train
 
+fill (255, 0, 0);
+stroke (255,0,0);
+strokeWeight (1)
+line (221, 170, 80, 170);
+line (221, 266, 80, 266);
+line (79, 169,  79, 266)
+
+// front of the train
+
+line (80,266,9, 266);
+line (9,266,77, 170);
+
+// window
+fill (255, 234, 0)
+rect (248,80, 70, 80);
 
 
 
