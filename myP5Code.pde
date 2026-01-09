@@ -11,14 +11,36 @@ void draw(){
   strokeWeight(1);
 
   //wheels Your Code For This Project Goes Here
+  
+// The Ground
   rect(0,300,400,100);
-  line (225,155,100,155)
-  line (225, 155, 100, 155)
+  line (225,310 ,100, 310)
+  line (225, 321, 100, 321)
 
+// Wheels
+fill (255,0,0)
   ellipse (100,320,75,75); 
   ellipse (100, 320, 30, 30);
+fill (255,0,0)
   ellipse (190, 320, 75, 75);
   ellipse (190, 320, 30, 30);
+
+fill (255,0,0)
+ellipse (300,310,100,100); 
+fill (255, 234, 0)
+  ellipse (300, 310, 50, 50);
+
+// The rod on the wheels
+fill (0,0,225);
+strokeWeight (15);
+line (310, 321,105, 321);
+
+
+
+
+
+
+
   
 
   
