@@ -14,6 +14,7 @@ void draw(){
   
 // The Ground
   rect(0,300,400,100);
+   strokeWeight (5);
   line (225,310 ,100, 310)
   line (225, 321, 100, 321)
 
@@ -37,7 +38,7 @@ stroke (0,0,255)
 line (310, 321,105, 321);
 
 // back of the train 
-strokeWeight (1)
+strokeWeight (10)
   fill (0, 150, 255);
 line (340, 270, 340, 55); 
 line (220, 270, 220, 55);
@@ -50,7 +51,7 @@ line (340,266 ,220, 266);
 
 fill (255, 0, 0);
 stroke (255,0,0);
-strokeWeight (1)
+strokeWeight (10)
 line (221, 170, 80, 170);
 line (221, 266, 80, 266);
 line (79, 169,  79, 266)

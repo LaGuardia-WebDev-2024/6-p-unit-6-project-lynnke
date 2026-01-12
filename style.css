@@ -10,7 +10,16 @@ body {
     #B121B6 85%, /* Yellow starts at 75% */
     #DD133B 100% /* Yellow ends at 100% */
   );
+  
+  font-family: fantasy;
+font-size: xx-small;
+text-align: left;
 }
+.start {
+ 
+  color: #1E7BC9;
+}
+
 
 html{
   height: 100%;
